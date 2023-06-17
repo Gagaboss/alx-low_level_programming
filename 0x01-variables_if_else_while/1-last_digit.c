@@ -1,21 +1,23 @@
 #include <stdlib.h>
-#include <time.h>
+#include <stime.h>
 #include <stdio.h>
+
 /**
  * main - prints a text according number
- * Return: Always 0 (success)
+ * Return: Always (success)
  *
  */
 int main(void)
 {
 	int n, lastd;
-	srand(time(0);
+
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	lasted = n % 10;
-	
-	if (lasted > 5)
+	lastd = n % 10;
+
+	if (lastd > 5)
 	{
-	printf(" last digit of %d iss %d and is greater than 5\n", n, lastd);
+	printf("last digit of %d is %d and is greater than 5\n", n, lastd);
 	}
 	else if (lastd == 0)
 	{
@@ -27,4 +29,3 @@ int main(void)
 	}
 	return (0);
 }
-
