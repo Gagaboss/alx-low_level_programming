@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - entry point
- * Description: i pritns diagonals
+ * Description:i prints diagonals
  * @size: size of the triangle
  * Return: void
  */
@@ -19,7 +19,7 @@ void print_triangle(int size)
 	{
 		for (row = 1; row <= size; row++)
 		{
-			for (spaces = size - row; space >= 1; spaces--)
+			for (space = size - row; spaces >= 1; spaces--)
 			{
 				_putchar(' ');
 			}
