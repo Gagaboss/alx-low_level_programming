@@ -1,3 +1,12 @@
-abc123root@7703276d4b54:~/alx-low_level_programming# cd 0x07-pointers_arrays_strings
+#include "main.h"
 
-root@7703276d4b54:~/alx-low_level_programming# cd 0x07-pointers_arrays_strings
+/**
+ * set_string - entry point
+ * @s: input
+ * @to: input
+ * Return: always 0 (success)
+ */
+void set_string(char **s, char *to)
+{
+	*s = to;
+}
