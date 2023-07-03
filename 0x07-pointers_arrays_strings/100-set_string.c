@@ -1,11 +1,3 @@
-#include "main.h"
+abc123root@7703276d4b54:~/alx-low_level_programming# cd 0x07-pointers_arrays_strings
 
-/**
- * set_string - sets the value of a pointer to a char.
- * @s: The pointer.
- * @to: The char.
- */
-void set_string(char **s, char *to)
-{
-	*s = to;
-}
+root@7703276d4b54:~/alx-low_level_programming# cd 0x07-pointers_arrays_strings
