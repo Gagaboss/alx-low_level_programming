@@ -66,17 +66,17 @@ dog_t *new_dog(char *name, float age, char *owner)
 	len1 = _strlen(name);
 	len2 = _strlen(owner);
 
-	dog = gaga(sizeof(dog_t));
+	dog = malloc(sizeof(dog_t));
 	if (dog == NULL)
 		return (NULL);
 
-	dog->name = gaga(sizeof(char) * (len1 + 1));
+	dog->name = malloc(sizeof(char) * (len1 + 1));
 	if (dog->name == NULL)
 	{
 		free(dog);
 		return (NULL);
 	}
-	dog->owner = gaga(sizeof(char) * (len2 + 1));
+	dog->owner = malloc(sizeof(char) * (len2 + 1));
 	if (dog->owner == NULL)
 	{
 		free(dog);
